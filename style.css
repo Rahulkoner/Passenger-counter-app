@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-align: center;
+    font-family: sans-serif;
+}
+#wrapper{
+    background-color: black;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 600px;
+    height: 500px;
+    background-image: url(./image/counterappBG.jpg);
+    background-size: cover;
+    padding: 30px;
+    border-radius: 20px;
+    
+}
+h1{
+    font-size: 40px;
+}
+.value{
+    margin: 10px;
+}
+.btn{
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    width: 250px;
+    cursor: pointer;
+}
+#inc{
+    background-color: green;
+
+}
+#dec{
+    background-color: red;
+}
+#save{
+    background-color: yellow;
+}
+h2{
+    color: black;
+}
